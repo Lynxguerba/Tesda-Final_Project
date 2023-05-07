@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  transition: 0.5s;
+}
+nav li:hover {
+  background-color: rgb(179, 175, 175);
+  border-radius: 2px;
+  border: 2px solid rgb(80, 79, 79);
+}
+
+nav .search {
+  height: 40px;
+  width: 80;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  font-family: "Rubik", sans-serif;
+  border: 2px solid rgba(240, 8, 82, 0.027);
+}
+nav .btn0 {
+  height: 40px;
+  width: 80px;
+  outline: none;
+  border: none;
+  background: rgb(240, 26, 92);
+  color: white;
+  border-radius: 60px;
+  font-weight: 700;
+}
+footer a {
+  text-decoration: none;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+}

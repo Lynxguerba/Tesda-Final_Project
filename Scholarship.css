@@ -1,0 +1,146 @@
+/* * {
+  outline: red dashed 2px;
+} */
+
+#navbarScroll li {
+  transition: 0.5s;
+}
+#navbarScroll li:hover {
+  background-color: rgb(179, 175, 175);
+  border-radius: 2px;
+  border: 2px solid rgb(80, 79, 79);
+}
+
+.search {
+  height: 40px;
+  width: 80;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  font-family: "Rubik", sans-serif;
+  border: 2px solid rgba(240, 8, 82, 0.027);
+}
+.btn0 {
+  height: 40px;
+  width: 80px;
+  outline: none;
+  border: none;
+  background: rgb(240, 26, 92);
+  color: white;
+  border-radius: 60px;
+}
+.bg-background {
+  background: url(images/scholarship.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.bg-background h1 {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  text-shadow: 3px 3px 5px #000000;
+}
+.bg-background p {
+  font-family: "Sigmar", cursive;
+  color: white;
+  text-shadow: 3px 3px 5px #000000;
+}
+.btn1 {
+  height: 50px;
+  width: 150px;
+  border: none;
+  outline: none;
+  background-color: rgb(240, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  transition: 0.5s;
+}
+.btn1:hover {
+  background-color: rgb(228, 216, 220);
+  border: solid 2px rgb(240, 26, 92);
+  color: black;
+}
+
+/* Small Screen */
+@media (max-width: 576px) {
+  p {
+    font-size: 2.6em;
+  }
+  h1 {
+    font-size: 3.4em;
+  }
+}
+
+/* Media Screen */
+@media (min-width: 576px) and (max-width: 768px) {
+  p {
+    font-size: 3.1em;
+  }
+  h1 {
+    font-size: 5.4em;
+  }
+}
+
+@media (min-width: 412px) and (max-width: 914px) {
+  p {
+    font-size: 3.1em;
+  }
+  h1 {
+    font-size: 5.4em;
+  }
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  p {
+    font-size: 3.1em;
+  }
+  h1 {
+    font-size: 4.8em;
+  }
+}
+@media (min-width: 360px) and (max-width: 740px) {
+  p {
+    font-size: 3.1em;
+  }
+  h1 {
+    font-size: 4.8em;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 768px) {
+  p {
+    font-size: 3.4em;
+  }
+  h1 {
+    font-size: 7.5em;
+  }
+}
+footer {
+  background: url(images/welding1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  margin-top: 20px;
+}
+.cntus i:hover {
+  color: aqua;
+}
+.btn1 {
+  height: 50px;
+  width: 150px;
+  border: none;
+  outline: none;
+  background-color: rgb(240, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  transition: 0.5s;
+}
+.btn1:hover {
+  background-color: rgb(228, 216, 220);
+  border: solid 2px rgb(240, 26, 92);
+  color: black;
+}

@@ -1,0 +1,133 @@
+/* * {
+  outline: red dashed 2px;
+} */
+
+li {
+  transition: 0.5s;
+}
+li:hover {
+  background-color: rgb(179, 175, 175);
+  border-radius: 2px;
+  border: 2px solid rgb(80, 79, 79);
+}
+
+.search {
+  height: 40px;
+  width: 80;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  font-family: "Rubik", sans-serif;
+  border: 2px solid rgba(240, 8, 82, 0.027);
+}
+.btn0 {
+  height: 40px;
+  width: 80px;
+  outline: none;
+  border: none;
+  background: rgb(240, 26, 92);
+  color: white;
+  border-radius: 60px;
+}
+.main {
+  background: url(images/background.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.main h3 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.main h5 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.btn1 {
+  height: 50px;
+  width: 150px;
+  border: none;
+  outline: none;
+  background-color: rgb(240, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  transition: 0.5s;
+}
+.btn1:hover {
+  background-color: rgb(228, 216, 220);
+  border: solid 2px rgb(240, 26, 92);
+  color: black;
+}
+
+/* Small Screen */
+@media (max-width: 576px) {
+  h3 {
+    font-size: 2.4em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+}
+
+/* Media Screen */
+@media (min-width: 576px) and (max-width: 768px) {
+  h3 {
+    font-size: 2em;
+  }
+  h5 {
+    font-size: 1.4em;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 768px) {
+  h3 {
+    font-size: 3.4em;
+  }
+  h5 {
+    font-size: 1.5em;
+  }
+}
+
+.main1 img {
+  border-radius: 4px;
+  width: 80vw;
+  height: 40vh;
+  padding: 15px;
+  transition: 0.5s;
+  filter: brightness(40%);
+  box-shadow: 0 0 10px 4px gray;
+}
+.main1 img:hover {
+  filter: none;
+}
+.box1 #carousel {
+  margin: 12px;
+  border-radius: 5px;
+}
+.FAQS h1 {
+  color: black;
+}
+.FAQS strong {
+  color: black;
+}
+footer {
+  background: url(images/welding1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  margin-top: 20px;
+}
+.cntus i:hover {
+  color: aqua;
+}
+
+img[src="images/logo.png"]:hover {
+  filter: drop-shadow(8px 6px 4px blue);
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
